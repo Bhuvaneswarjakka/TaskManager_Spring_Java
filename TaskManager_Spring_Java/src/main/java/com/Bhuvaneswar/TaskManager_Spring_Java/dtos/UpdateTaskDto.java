@@ -5,9 +5,9 @@ import lombok.Data;
 import java.util.Date;
 
 @Data
-public class TaskDTO
+public class UpdateTaskDto
 {
-    private String title;
     private String description;
     private String deadline;
+    private Boolean statusOfTask;
 }
